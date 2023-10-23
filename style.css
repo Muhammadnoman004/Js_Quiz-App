@@ -1,0 +1,199 @@
+body{
+    background-color: rgba(220, 220, 220, 0.815);
+}
+#main{
+    
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/006/277/661/small/studio-empty-background-wall-and-floor-grunge-texture-cement-concrete-display-scene-free-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 95%;
+    box-shadow: 0px 0px 15px black;
+    
+} 
+
+#h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(3, 3, 51);
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 2px;
+}
+#timer{
+    text-align: end;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+#Ques{
+    font-size: x-large;
+    font-family: serif;
+    color: whitesmoke;
+    padding-top: 10px;
+    
+}
+.mainInp{
+    padding-top: 10px;
+}
+
+.inp1:hover{
+    background-color: rgb(220, 220, 220);
+    box-shadow: inset 0px 0px 8px black;
+}
+
+.inp2:hover{
+    background-color: rgb(220, 220, 220);
+    box-shadow: inset 0px 0px 8px black;
+}
+.inp3:hover{
+    background-color: rgb(220, 220, 220);
+    box-shadow: inset 0px 0px 8px black;
+}
+
+.inp1{
+    
+    margin-top: 5%;
+    padding-left: 20px !important;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    background-color: snow;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inp2{
+   
+    margin-top: 7%;
+    padding-left: 20px !important;
+    padding: 10px;
+    width: auto;
+    height: auto !important;
+    background-color: snow;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inp3{
+   
+    margin-top: 7%;
+    padding-left: 20px !important;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    background-color: snow;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.opt{
+    padding-left: 7px;
+}
+#btn{
+    background-color: rgba(220, 220, 220, 0.932);
+    color: rgb(3, 3, 51);
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    font-size: large;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+#btn:hover{
+    background-color: rgba(220, 220, 220, 0.699);
+    border: 2px  solid whitesmoke;
+}
+
+
+
+
+
+
+#MCQs{
+    color: rgba(220, 220, 220, 0.932);
+    font-family: serif;
+    word-spacing: 5px;
+}
+
+
+
+
+#detail{
+    color: rgba(220, 220, 220, 0.932) !important;
+    font-family: serif;
+}
+
+.ul{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    padding-left: 18px;
+    list-style-type: square;
+}
+
+#Start{
+    background-color: rgba(220, 220, 220, 0.932);
+    color: rgb(3, 3, 51);
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#Start:hover{
+    background-color: rgba(220, 220, 220, 0.699);
+    border: 2px  solid whitesmoke;
+}
+
+span{
+    font-size: 22px;
+    color: rgba(220, 220, 220, 0.699);
+    padding-left: 20px;
+}
+
+
+.resultDiv{
+    display: none;
+    text-align: center;
+    padding-top: 50px !important;
+}
+.resultDiv span{
+    font-size: xx-large;
+    color: rgba(220, 220, 220, 0.699); 
+
+    
+}
+.resultDiv p{
+    font-size: xx-large;
+    color: rgba(220, 220, 220, 0.699);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+h2{
+    color: white;
+    font-family: serif;
+    padding-top: 30px;
+}
+hr{
+    color: white;
+}
+#title{
+    font-size: xx-large;
+    color: rgb(12, 206, 12);
+}
+.fail{
+    color: red !important;
+    letter-spacing: 5px !important;
+    font-size: xxx-large !important;
+}
